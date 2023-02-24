@@ -1,0 +1,16 @@
+GET http://127.0.0.1:5001/fir-cloud-emulator/us-central1/api
+
+###
+POST http://127.0.0.1:5001/fir-cloud-emulator/us-central1/api
+Content-Type: application/json
+
+{
+  "name": "Harry Potter",
+  "college": "Hogwarts"
+}
+
+###
+DELETE http://127.0.0.1:5001/fir-cloud-emulator/us-central1/api
+
+###
+PUT http://127.0.0.1:5001/fir-cloud-emulator/us-central1/api
