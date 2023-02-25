@@ -1,7 +1,7 @@
 GET http://127.0.0.1:5001/fir-cloud-emulator/us-central1/api
 
 ###
-POST http://127.0.0.1:5001/fir-cloud-emulator/us-central1/api
+POST https://us-central1-fir-cloud-emulator.cloudfunctions.net/api
 Content-Type: application/json
 
 {
@@ -10,7 +10,7 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://127.0.0.1:5001/fir-cloud-emulator/us-central1/api
+DELETE https://us-central1-fir-cloud-emulator.cloudfunctions.net/api
 
 ###
-PUT http://127.0.0.1:5001/fir-cloud-emulator/us-central1/api
+PUT https://us-central1-fir-cloud-emulator.cloudfunctions.net/api
